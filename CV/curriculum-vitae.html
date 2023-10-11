@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="public/images/memoji.png"
+    />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/css/style.css" />
+
+    <!-- Remixicons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Fauzan</title>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">Fauzan <i class="bx bx-rocket"></i></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portofolio">Project</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </header>
+    <section class="hero" id="home">
+      <div class="main-content">
+        <h4>Hi, There!</h4>
+        <h1>I'm a <span>Full Stack Developer</span></h1>
+        <!-- <p>
+          
+        </p> -->
+        <div class="social">
+          <a href="https://github.com/ojanaja" target="_blank"
+            ><i class="ri-github-fill"></i
+          ></a>
+          <a href="https://linkedin.com/in/fauzan03" target="_blank"
+            ><i class="ri-linkedin-box-fill"></i
+          ></a>
+          <a href="https://instagram.com/jvncvxx" target="_blank"
+            ><i class="ri-instagram-line"></i
+          ></a>
+        </div>
+      </div>
+      <!-- Spline -->
+      <spline-viewer
+        url="https://prod.spline.design/sziy5TdJMln7WHA3/scene.splinecode"
+      ></spline-viewer>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="public/images/profile.jpg" alt="profile" />
+      </div>
+
+      <div class="about-text">
+        <h2>About <span>me</span></h2>
+        <h4>Hi, my name is Fauzan</h4>
+        <p>
+          I am an active 5th-semester student at Sunan Gunung Djati State
+          Islamic University in Bandung, pursuing a Bachelor's degree in
+          Computer Engineering (S1 Teknik Informatika). With an academic
+          background in technology and non-academic experiences through
+          committee involvement and campus projects, I have honed my leadership
+          skills and developed a high level of self-confidence. I possess
+          expertise in team management and efficient time management to fulfill
+          responsibilities effectively. Personally, I am always enthusiastic
+          about continuous growth and making the most out of every opportunity
+          available.
+        </p>
+      </div>
+    </section>
+
+    <section class="portofolio" id="portofolio">
+      <div class="center-text">
+        <h2>My <span>Projects</span></h2>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 items-center gap-[1rem] xl:gap-[3rem] mt-[2rem] mx-auto"
+      >
+        <div
+          class="row bg-[#fff] border-inherit rounded-[28px] shadow-xl p-[20px] ease-in duration-300 hover:translate-y-[5px] hover:scale-[1.03]"
+        >
+          <img
+            src="public/images/mategoods.png"
+            alt="mategoods"
+            class="h-auto width-[100%] rounded-[28px] mb-[1rem]"
+          />
+          <div class="main-row flex items-center justify-between mb-[0.5rem]">
+            <div class="row-text">
+              <h5 class="text-[20px] font-semibold text-[#000]">
+                Full-Stack Developer
+              </h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://github.com/ojanaja/mategoods" target="_blank"
+                ><i
+                  class="bx bxl-github inline-flex items-center justify-center w-[50px] h-[50px] rounded-[50%] backdrop-brightness-[90%] text-[25px] mx-[10px] mt-[10px] shadow-md cursor-pointer ease-in duration-300"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <h4 class="text-[15px] font-semibold mb-[10px] leading-[1.4]">
+            Mategoodsclothing.com
+          </h4>
+        </div>
+
+        <div
+          class="row bg-[#fff] border-inherit rounded-[28px] shadow-xl p-[20px] ease-in duration-300 hover:translate-y-[5px] hover:scale-[1.03]"
+        >
+          <img
+            src="public/images/sinar.png"
+            alt="mategoods"
+            class="h-auto width-[100%] rounded-[28px] mb-[1rem]"
+          />
+          <div class="main-row flex items-center justify-between mb-[0.5rem]">
+            <div class="row-text">
+              <h5 class="text-[20px] font-semibold text-[#000]">
+                Full-Stack Developer
+              </h5>
+            </div>
+            <div class="row-icon">
+              <a
+                href="https://github.com/ojanaja/pengaduan-masyarakat"
+                target="_blank"
+                ><i
+                  class="bx bxl-github inline-flex items-center justify-center w-[50px] h-[50px] rounded-[50%] backdrop-brightness-[90%] text-[25px] mx-[10px] mt-[10px] shadow-md cursor-pointer ease-in duration-300"
+                ></i
+              ></a>
+            </div>
+          </div>
+          <h4 class="text-[15px] font-semibold mb-[10px] leading-[1.4]">
+            SINAR (Dummy Project)
+          </h4>
+        </div>
+      </div>
+    </section>
+    <div class="footer"></div>
+    <!-- Spline -->
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@0.9.451/build/spline-viewer.js"
+    ></script>
+
+    <!-- Js -->
+    <script src="public/js/script.js"></script>
+  </body>
+</html>
